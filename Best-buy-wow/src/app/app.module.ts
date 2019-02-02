@@ -10,6 +10,8 @@ import {MainPage} from '../pages/main/main';
 import {DealsPage} from '../pages/deals/deals';
 import {ComparePage} from '../pages/compare/compare';
 import {InAppBrowser} from '@ionic-native/in-app-browser';
+import {BarcodeScanner} from '@ionic-native/barcode-scanner';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import {InAppBrowser} from '@ionic-native/in-app-browser';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -32,6 +35,8 @@ import {InAppBrowser} from '@ionic-native/in-app-browser';
     ComparePage
   ],
   providers: [
+    BarcodeScanner,
+    HttpClient,
     InAppBrowser,
     StatusBar,
     SplashScreen,
