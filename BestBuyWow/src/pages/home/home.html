@@ -1,14 +1,63 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Tinder
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-card>
+    <img *ngIf="currentImage === 0" class="tinder-image" src="./../../assets/imgs/computer.png">
+    <ion-card-content *ngIf="currentImage === 0">
+      This is the ultimate no-frills computer! This specific unit consists of a intel celeron processer,
+      integrated intel graphics, 16 gigabyts of storage, 2 gigabytes of ram, and a hell of a sturdy case!!
+      Get your ultimate no-frills computer at Best Buy today for only $10!!!
+    </ion-card-content>
+    <img *ngIf="currentImage === 1" class="tinder-image" src="./../../assets/imgs/macbook.png">
+    <ion-card-content *ngIf="currentImage === 1">
+      This is a macbook! This specific model consists of an intel core i7 cpu, 16 gigabytes of ram,
+      2 terabytes of SSD storage, and an Nvidia RTX 2080Ti!!! You're crazy if you don't buy one!
+      and
+    </ion-card-content>
+    <img *ngIf="currentImage === 2" class="tinder-image" src="./../../assets/imgs/gaming.png">
+    <ion-card-content *ngIf="currentImage === 2">
+      This is the ultimate gaming laptop!! This MSI gaming laptop has an intel i9 desktop processer, and RTX 2080TI
+      graphics card, a petabyte of storage, and a 128gb of ram!!! Get yours today at Best Buy for $10000
+    </ion-card-content>
+    <img *ngIf="currentImage === 3" class="tinder-image" src="./../../assets/imgs/fridge.png">
+    <ion-card-content *ngIf="currentImage === 3">
+      The place to store all your food! This specific refrigerator consists of an all new cooling system capable of
+      reaching -40 Celsius. The main reason of why this refrigerator is so amazing is because of it's interactive
+      touch screen display that is capable of doing anything from browsing the internet to playing games!!
+    </ion-card-content>
+    <img *ngIf="currentImage === 4" class="tinder-image" src="./../../assets/imgs/blender.png">
+    <ion-card-content *ngIf="currentImage === 4">
+      Do you like to get blended? Well if you do, this product is just for you!!! Mix anything like fruits and milk to
+      create an ever so delightful smoothie. The blades in the blender spins at a whooping rate of 10000 rounds per minute
+      along with having sharp japanese blades! You need this in your kitchen now!
+    </ion-card-content>
+    <img *ngIf="currentImage === 5" class="tinder-image" src="./../../assets/imgs/google.png">
+    <ion-card-content *ngIf="currentImage === 5">
+      What to have your own assistant at the convenience of your home. No matter where are how you are talking to the
+      home system, the google home will always be at your service. For example, if you ask, "Hey Google,
+      how do I make spaghetti?", the assistant will always have the answers you need. Buy a Google home now?
+    </ion-card-content>
+    <img *ngIf="currentImage === 6" class="tinder-image" src="./../../assets/imgs/alexa.png">
+    <ion-card-content *ngIf="currentImage === 6">
+      Help Amazon beat google in the race for the best virtual assistant!!! Alexa has always got your back to assist you
+      in any troubles you may have! Buy an Amazon Alexa now!!
+    </ion-card-content>
+  </ion-card>
+  <ion-row class="action-buttons-group">
+    <ion-col col-1></ion-col>
+    <ion-col col-4>
+      <ion-img class="action-buttons" src="./../../assets/imgs/pass.jpg" (tap)="nextImage()"></ion-img>
+    </ion-col>
+    <ion-col col-2></ion-col>
+    <ion-col col-4>
+      <ion-img class="action-buttons" src="./../../assets/imgs/like.jpg" (tap)="nextImage()"></ion-img>
+    </ion-col>
+    <ion-col col-1></ion-col>
+  </ion-row>
 </ion-content>

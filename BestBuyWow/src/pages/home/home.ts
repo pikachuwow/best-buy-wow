@@ -1,14 +1,29 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import {AlertController, NavController} from 'ionic-angular';
+import {MainPage} from '../main/main';
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
+  entryComponents: [MainPage]
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  public currentImage: number = 0;
 
+  constructor(public navCtrl: NavController,
+              private alertCtrl: AlertController) {
+
+  }
+
+  public nextImage(): void {
+    if (++this.currentImage === 7) {
+      this.alertCtrl.create({
+        title: 'Your profile has been created!',
+        buttons: ['OK']
+      }).present().then(()=>this.navCtrl.push(MainPage));
+      this.currentImage = 0;
+    }
   }
 
 }

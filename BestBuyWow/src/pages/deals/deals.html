@@ -1,0 +1,24 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <h4 class="title-fit">Amy, your personalized deals:</h4>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let deal of deals">
+    <ion-card-content>
+      <ion-row>
+        {{deal.name}}
+      </ion-row>
+      <ion-row>
+        {{deal.description}}
+      </ion-row>
+      <ion-row>
+        <strong>{{deal.price}}</strong>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
