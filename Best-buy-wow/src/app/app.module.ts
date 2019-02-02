@@ -12,6 +12,7 @@ import {ComparePage} from '../pages/compare/compare';
 import {InAppBrowser} from '@ionic-native/in-app-browser';
 import {BarcodeScanner} from '@ionic-native/barcode-scanner';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import {ComparisonPage} from '../pages/comparison/comparison';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     HomePage,
     MainPage,
     DealsPage,
-    ComparePage
+    ComparePage,
+    ComparisonPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     HomePage,
     MainPage,
     DealsPage,
-    ComparePage
+    ComparePage,
+    ComparisonPage
   ],
   providers: [
     BarcodeScanner,
