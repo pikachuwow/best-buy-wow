@@ -1,0 +1,24 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title class="title-fit">Amy, your personalized deals:</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let deal of deals">
+    <ion-card-content (tap)="iab.create(deal.url)">
+      <ion-row>
+        {{deal.name}}
+      </ion-row>
+      <ion-row>
+        {{deal.description}}
+      </ion-row>
+      <ion-row>
+        <strong>{{deal.price}}</strong>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "Best-buy-wow",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
