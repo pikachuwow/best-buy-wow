@@ -8,13 +8,16 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {MainPage} from '../pages/main/main';
 import {DealsPage} from '../pages/deals/deals';
+import {ComparePage} from '../pages/compare/compare';
+import {BarcodeScanner} from '@ionic-native/barcode-scanner';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     MainPage,
-    DealsPage
+    DealsPage,
+    ComparePage
   ],
   imports: [
     BrowserModule,
@@ -25,9 +28,11 @@ import {DealsPage} from '../pages/deals/deals';
     MyApp,
     HomePage,
     MainPage,
-    DealsPage
+    DealsPage,
+    ComparePage
   ],
   providers: [
+    BarcodeScanner,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}

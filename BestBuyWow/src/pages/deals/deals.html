@@ -2,14 +2,14 @@
 <ion-header>
 
   <ion-navbar>
-    <h4 class="title-fit">Amy, your personalized deals:</h4>
+    <ion-title class="title-fit">Amy, your personalized deals:</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 <ion-content padding>
   <ion-card *ngFor="let deal of deals">
-    <ion-card-content>
+    <ion-card-content (tap)="window.open(deal.url, '_blank');">
       <ion-row>
         {{deal.name}}
       </ion-row>
