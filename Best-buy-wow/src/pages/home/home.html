@@ -13,38 +13,38 @@
     </ion-card-title>
     <ion-card-content>
       <ion-row>
-        <ion-item>
-          <ion-col col-6>
-            Age:
-          </ion-col>
-          <ion-col col-6>
-            <ion-input></ion-input>
-          </ion-col>
-        </ion-item>
+        <ion-col col-6>
+          Age:
+        </ion-col>
+        <ion-col col-6>
+          <ion-item>
+            <ion-input type="number" max="100" min="1"></ion-input>
+          </ion-item>
+        </ion-col>
       </ion-row>
       <ion-row>
-        <ion-item>
-          <ion-col col-6>
-            Gender:
-          </ion-col>
-          <ion-col col-6>
+        <ion-col col-6>
+          Gender:
+        </ion-col>
+        <ion-col col-6>
+          <ion-item>
             <ion-input></ion-input>
-          </ion-col>
-        </ion-item>
+          </ion-item>
+        </ion-col>
       </ion-row>
       <ion-row>
-        <ion-item>
-          <ion-col col-6>
-            Budget
-          </ion-col>
-          <ion-col col-6>
-            <ion-input></ion-input>
-          </ion-col>
-        </ion-item>
+        <ion-col col-6>
+          Budget
+        </ion-col>
+        <ion-col col-6>
+          <ion-item>
+            <ion-input type="number" min="1">$</ion-input>
+          </ion-item>
+        </ion-col>
       </ion-row>
     </ion-card-content>
     <ion-row class="start-button">
-      <button ion-button full (tap)="gotoTinderPage()"> Start Your Journey! </button>
+      <button ion-button full (tap)="gotoTinderPage()"> Start Your Journey!</button>
     </ion-row>
   </ion-card>
 </ion-content>

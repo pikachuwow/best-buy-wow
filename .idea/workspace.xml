@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="483a9112-61e1-449a-95a7-42b663f4e8ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Best-buy-wow/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Best-buy-wow/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Best-buy-wow/src/pages/compare/compare.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Best-buy-wow/src/pages/compare/compare.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Best-buy-wow/src/pages/comparison/comparison.html" beforeDir="false" afterPath="$PROJECT_DIR$/Best-buy-wow/src/pages/comparison/comparison.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Best-buy-wow/src/pages/comparison/comparison.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Best-buy-wow/src/pages/comparison/comparison.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Best-buy-wow/src/pages/comparison/comparison.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Best-buy-wow/src/pages/comparison/comparison.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,15 +30,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1051" />
-          <entry key="scss" value="132" />
+          <entry key="html" value="1109" />
+          <entry key="scss" value="152" />
           <entry key="ts" value="2020" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1051" />
-          <entry key="SCSS" value="132" />
+          <entry key="HTML" value="1109" />
+          <entry key="SCSS" value="152" />
           <entry key="TypeScript" value="2020" />
         </counts>
       </usages-collector>
@@ -113,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="207">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -145,17 +139,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/tinder/tinder.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="45">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -208,8 +202,8 @@
         <option value="$PROJECT_DIR$/Best-buy-wow/src/pages/tinder/tinder.ts" />
         <option value="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.ts" />
         <option value="$PROJECT_DIR$/Best-buy-wow/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.html" />
         <option value="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.scss" />
+        <option value="$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.html" />
       </list>
     </option>
   </component>
@@ -264,89 +258,6 @@
               <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
               <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="check-for-me" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="compare" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="comparison" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="deals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="tinder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="best-buy-wow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="Best-buy-wow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="theme" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -399,13 +310,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20579000" />
+    <option name="totallyTimeSpent" value="21268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -418,7 +329,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4313253" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4313253" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -618,23 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/tinder/tinder.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/tinder/tinder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -654,20 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/tinder/tinder.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -678,10 +558,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/tinder/tinder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/tinder/tinder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/tinder/tinder.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Best-buy-wow/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
