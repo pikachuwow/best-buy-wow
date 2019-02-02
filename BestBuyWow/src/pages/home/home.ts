@@ -7,8 +7,18 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  public currentImage: number = 0;
+
   constructor(public navCtrl: NavController) {
 
+  }
+
+  public lastImage(): void {
+    this.currentImage--;
+  }
+
+  public nextImage(): void {
+    this.currentImage++;
   }
 
 }

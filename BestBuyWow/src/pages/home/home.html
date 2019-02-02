@@ -8,16 +8,18 @@
 
 <ion-content padding>
   <ion-card class="tinder-block">
-    <ion-img class="tinder-image" src="./../../assets/imgs/computer.png"></ion-img>
+    <img *ngIf="currentImage === 0" class="tinder-image" src="./../../assets/imgs/computer.png">
+    <img *ngIf="currentImage === 1" class="tinder-image" src="./../../assets/imgs/macbook.png">
+    <img *ngIf="currentImage === 2" class="tinder-image" src="./../../assets/imgs/gaming.png">
   </ion-card>
   <ion-row class="action-buttons-group">
     <ion-col col-1></ion-col>
     <ion-col col-4>
-      <ion-img class="action-buttons" src="./../../assets/imgs/pass.jpg"></ion-img>
+      <ion-img class="action-buttons" src="./../../assets/imgs/pass.jpg" (tap)="lastImage()"></ion-img>
     </ion-col>
     <ion-col col-2></ion-col>
     <ion-col col-4>
-      <ion-img class="action-buttons" src="./../../assets/imgs/like.jpg"></ion-img>
+      <ion-img class="action-buttons" src="./../../assets/imgs/like.jpg" (tap)="nextImage()"></ion-img>
     </ion-col>
     <ion-col col-1></ion-col>
   </ion-row>
