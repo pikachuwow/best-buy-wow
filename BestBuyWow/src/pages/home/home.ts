@@ -22,6 +22,7 @@ export class HomePage {
         title: 'Your profile has been created!',
         buttons: ['OK']
       }).present().then(()=>this.navCtrl.push(MainPage));
+      this.currentImage = 0;
     }
   }
 

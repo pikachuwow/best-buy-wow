@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {DealsPage} from '../deals/deals';
 
 /**
  * Generated class for the MainPage page.
@@ -18,8 +19,12 @@ export class MainPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad MainPage');
+
+  public backToBrowse(): void {
+    this.navCtrl.pop();
   }
 
+  public gotoDealsPage(): void {
+    this.navCtrl.push(DealsPage)
+  }
 }

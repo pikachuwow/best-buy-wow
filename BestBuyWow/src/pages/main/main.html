@@ -1,18 +1,15 @@
-<!--
-  Generated template for the MainPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
 
   <ion-navbar>
-    <ion-title>main</ion-title>
+    <ion-title>Hi, Amy!</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+  <div class="buttons-center">
+    <button ion-button full class="checkin-button" (tap)="gotoDealsPage()"> Check In </button>
+    <button ion-button full (tap)="backToBrowse()"> Browse </button>
+  </div>
 </ion-content>
