@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {DealsPage} from '../deals/deals';
-
-/**
- * Generated class for the MainPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import {ComparePage} from '../compare/compare';
 
 @IonicPage()
 @Component({
@@ -26,5 +20,9 @@ export class MainPage {
 
   public gotoDealsPage(): void {
     this.navCtrl.push(DealsPage)
+  }
+
+  public gotoComparePage(): void {
+    this.navCtrl.push(ComparePage)
   }
 }

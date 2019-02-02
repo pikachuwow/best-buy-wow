@@ -21,7 +21,10 @@ export class HomePage {
       this.alertCtrl.create({
         title: 'Your profile has been created!',
         buttons: ['OK']
-      }).present().then(()=>this.navCtrl.push(MainPage));
+      }).present().then(()=> {
+        setTimeout(100);
+        this.navCtrl.push(MainPage);
+      });
       this.currentImage = 0;
     }
   }
