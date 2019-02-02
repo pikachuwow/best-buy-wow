@@ -7,10 +7,19 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-card class="tinder-block">
+  <ion-card>
     <img *ngIf="currentImage === 0" class="tinder-image" src="./../../assets/imgs/computer.png">
+    <ion-card-content *ngIf="currentImage === 0">
+      This is a computer!
+    </ion-card-content>
     <img *ngIf="currentImage === 1" class="tinder-image" src="./../../assets/imgs/macbook.png">
+    <ion-card-content *ngIf="currentImage === 1">
+      This is a macbook!
+    </ion-card-content>
     <img *ngIf="currentImage === 2" class="tinder-image" src="./../../assets/imgs/gaming.png">
+    <ion-card-content *ngIf="currentImage === 2">
+      This is a gaming laptop!
+    </ion-card-content>
   </ion-card>
   <ion-row class="action-buttons-group">
     <ion-col col-1></ion-col>
