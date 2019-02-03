@@ -14,6 +14,8 @@ export class CheckForMePage {
   private json2info: any;
   private price: string = '';
 
+  public counter: number = 0;
+
   constructor(public navCtrl: NavController, public navParams: NavParams, private loadingCtrl: LoadingController) {
     this.json1info = this.navParams.get('json1info');
     this.json2info = this.navParams.get('json2info');
@@ -24,5 +26,9 @@ export class CheckForMePage {
     await setTimeout(100);
     loading.dismiss();
     this.navCtrl.push(RecommendationsPage);
+  }
+
+  public incrementCounter(): void {
+    this.counter++;
   }
 }

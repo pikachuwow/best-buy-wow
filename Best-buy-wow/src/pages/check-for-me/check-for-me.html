@@ -8,15 +8,23 @@
 
 <ion-content padding>
 
-  <ion-row>
-    <h4> How much are you willing to pay? </h4>
-    <ion-input></ion-input>
+  <ion-row *ngIf="counter === 0">
+    <ion-item>
+      <ion-label>How much are you willing to pay?</ion-label>
+      <ion-select (ionBlur)="incrementCounter()">
+        <ion-option>$100-300</ion-option>
+        <ion-option>$300-500</ion-option>
+        <ion-option>$500-1000</ion-option>
+        <ion-option>$1000-1500</ion-option>
+        <ion-option>$2000+</ion-option>
+      </ion-select>
+    </ion-item>
   </ion-row>
 
-  <ion-row>
+  <ion-row *ngIf="counter === 1">
     <ion-item>
       <ion-label>Which operating system do you prefer?</ion-label>
-      <ion-select>
+      <ion-select (ionBlur)="incrementCounter()">
         <ion-option>Linux</ion-option>
         <ion-option>Windows</ion-option>
         <ion-option>MacOS</ion-option>
@@ -24,10 +32,10 @@
     </ion-item>
   </ion-row>
 
-  <ion-row>
+  <ion-row *ngIf="counter === 2">
     <ion-item>
       <ion-label>A lot of people have to have one or the other. What is your preference?</ion-label>
-      <ion-select>
+      <ion-select multiple (ionBlur)="incrementCounter()">
         <ion-option>Listen to Music</ion-option>
         <ion-option>Editing Pictures</ion-option>
         <ion-option>Intensive Applications</ion-option>
@@ -39,10 +47,10 @@
     </ion-item>
   </ion-row>
 
-  <ion-row>
+  <ion-row *ngIf="counter === 3">
     <ion-item>
       <ion-label>What about portability?</ion-label>
-      <ion-select>
+      <ion-select (ionBlur)="incrementCounter()">
         <ion-option>Very Small</ion-option>
         <ion-option>Fairly Portable</ion-option>
         <ion-option>Not Important</ion-option>
@@ -50,10 +58,10 @@
     </ion-item>
   </ion-row>
 
-  <ion-row>
-    <button ion-button full (tap)="gotoRecommendationsPage()" class="check-for-me">
+  <div *ngIf="counter === 4">
+    <button ion-button full (tap)="gotoRecommendationsPage()">
       Pick For Me!
     </button>
-  </ion-row>
+  </div>
 
 </ion-content>

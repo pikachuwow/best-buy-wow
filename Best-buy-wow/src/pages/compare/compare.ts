@@ -21,6 +21,8 @@ export class ComparePage {
   }
 
   public async ngAfterViewInit(): Promise<void> {
+    this.barcodeScanner.scan();
+    this.counter++;
     const interval = setInterval(() => {
       this.barcodeScanner.scan().then(async () => {
         if (++this.counter == 2) {
