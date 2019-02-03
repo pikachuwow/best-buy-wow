@@ -47,52 +47,16 @@ export class DealsPage {
       url: 'https://www.bestbuy.ca/en-ca/product/apple-ipad-pro-12-9-512gb-with-wi-fi-4g-lte-space-grey/10750291.aspx?'
     },
     {
-      name: 'Bose QC35 II Headphones',
-      description: 'Revolutionary noise cancelling headphones',
-      price: '$450.00 - $130 off',
-      url: ''
-    },
-    {
       name: 'Samsung Ultrawide Gaming Monitor',
       description: 'High refresh rate and greater field of view',
       price: '$1000.00 - $200 off',
       url: 'https://www.bestbuy.ca/en-ca/product/samsung-49-ultrawide-144hz-1ms-curved-led-gaming-monitor-lc49hg90dmnxza-charcoal-black/11292475.aspx?'
     },
     {
-      name: 'Canon Laser Printer',
-      description: 'Ultra-fast printing speeds and extreme colour accuracy',
-      price: '$300.00 - $40 off',
-      url: 'https://www.bestbuy.ca/en-ca/product/canon-imageclass-mf632cdw-colour-wireless-laser-printer/10748131.aspx?'
-    },
-    {
-      name: 'Apple Watch Series 4',
-      description: 'Power of a smartphone on the wrist of your arm',
-      price: '$500.00 - $5 off',
-      url: 'https://www.bestbuy.ca/en-ca/product/apple-watch-series-4-gps-44mm-space-grey-aluminium-case-with-black-sport-band/13018343.aspx?'
-    },
-    {
-      name: 'Insignia Freezer',
-      description: 'Freeze your food items at rapid speeds',
-      price: '$139.99 - $10 off',
-      url: 'https://www.bestbuy.ca/en-ca/product/insignia-3-5-cu-ft-chest-freezer-ns-cz35wh9/12656187.aspx?icmp=Recos_3across_tp_sllng_prdcts'
-    },
-    {
-      name: 'Playstation 4 1TB',
-      description: 'Play games at high definition resolutions',
-      price: '$500.00 - $100 off',
-      url: 'https://www.bestbuy.ca/en-ca/product/playstation-4-pro-1tb-console/12910052.aspx?'
-    },
-    {
-      name: 'Fender Stratocaster',
-      description: 'An electric guitar that suits all styles of music',
-      price: '$900.00  - $100 off',
-      url: 'https://www.bestbuy.ca/en-ca/product/fender-player-stratocaster-electric-guitar-tidepool/13024761.aspx?'
-    },
-    {
-      name: '2.4G 4-Channel Foldable Drone',
-      description: 'Has a 720p built-in camera and much user control and interation with the drone.',
-      price: '$100.00 - $50 off',
-      url: 'https://www.bestbuy.ca/en-ca/product/2-4g-4-channel-foldable-drone-with-wifi-720p-camera-altitude-hold-mode/12598527.aspx?'
+      name: 'ASUS ROG Zephyrus GX501 15.6" Gaming Laptop',
+      description: '(Intel Core i7-7700HQ/512GB SSD/16GB RAM/Win10)',
+      price: '$3,499.95',
+      url: 'https://www.bestbuy.ca/en-ca/product/asus-rog-zephyrus-gx501-15-6-gaming-laptop-intel-core-i7-7700hq-512gb-ssd-16gb-ram-win10/10942019.aspx?'
     },
     ]
 
