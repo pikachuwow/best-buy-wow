@@ -1,0 +1,58 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Recommendations</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="center-text">
+    <ion-item>
+      Based on your selections, here are some products that you may like:
+    </ion-item>
+    <ion-card>
+      <ion-card-content (tap)="iab.create('https://www.bestbuy.ca/en-ca/product/apple-apple-airpods-in-ear-bluetooth-headphones-with-mic-mmef2c-a-white-mmef2c-a/10557542.aspx?')">
+        <ion-row>
+          Apple AirPods
+        </ion-row>
+        <ion-row>
+          AirPods will forever change the way you use headphones.
+        </ion-row>
+        <ion-row>
+          <strong>$219.999</strong>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-content (tap)="iab.create('https://www.bestbuy.ca/en-ca/product/apple-apple-airpods-in-ear-bluetooth-headphones-with-mic-mmef2c-a-white-mmef2c-a/10557542.aspx?')">
+        <ion-row>
+          Samsung 32" 60Hz 4ms Curved PLS LED Monitor
+        </ion-row>
+        <ion-row>
+          Give your desktop computer experience theatre-level visuals with this Samsung 32-inch LED curved monitor.
+        </ion-row>
+        <ion-row>
+          <strong>$299.99</strong>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-content (tap)="iab.create('https://www.bestbuy.ca/en-ca/product/google-home-white-slate/10721100.aspx?')">
+        <ion-row>
+          Google Home
+        </ion-row>
+        <ion-row>
+          Hi-tech assistance at your command, Google Home is here to help.
+        </ion-row>
+        <ion-row>
+          <strong>$179.99</strong>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+</ion-content>

@@ -15,6 +15,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {ComparisonPage} from '../pages/comparison/comparison';
 import {CheckForMePage} from '../pages/check-for-me/check-for-me';
 import {TinderPage} from '../pages/tinder/tinder';
+import {RecommendationsPage} from '../pages/recommendations/recommendations';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {TinderPage} from '../pages/tinder/tinder';
     ComparePage,
     ComparisonPage,
     CheckForMePage,
-    TinderPage
+    TinderPage,
+    RecommendationsPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,8 @@ import {TinderPage} from '../pages/tinder/tinder';
     ComparePage,
     ComparisonPage,
     CheckForMePage,
-    TinderPage
+    TinderPage,
+    RecommendationsPage
   ],
   providers: [
     BarcodeScanner,

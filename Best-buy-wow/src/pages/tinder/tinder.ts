@@ -21,9 +21,13 @@ export class TinderPage {
         buttons: ['OK']
       }).present().then(()=> {
         setTimeout(100);
-        this.navCtrl.push(MainPage);
+        this.gotoMainPage();
       });
       this.currentImage = 0;
     }
+  }
+
+  public gotoMainPage(): void {
+    this.navCtrl.push(MainPage);
   }
 }
