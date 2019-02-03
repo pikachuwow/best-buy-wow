@@ -2,12 +2,15 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title class="title-fit">Amy, your personalized deals:</ion-title>
+    <ion-title class="title-fit">Your personalized deals:</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 <ion-content padding>
+  <ion-row>
+    <img src="src=./../../assets/imgs/pikachu_wow.png">
+  </ion-row>
   <ion-card *ngFor="let deal of deals">
     <ion-card-content (tap)="iab.create(deal.url)">
       <ion-row>

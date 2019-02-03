@@ -9,42 +9,37 @@
 <ion-content padding>
   <ion-card class="login-card">
     <ion-card-title>
-      Enter Gift Parameters!
+      <ion-item>
+        Enter Gift Parameters!
+      </ion-item>
     </ion-card-title>
     <ion-card-content>
       <ion-row>
-        <ion-col col-6>
-          Age:
-        </ion-col>
-        <ion-col col-6>
-          <ion-item>
-            <ion-input type="number" max="100" min="1" placeholder="20"></ion-input>
-          </ion-item>
-        </ion-col>
+        <ion-item>
+          <ion-label>Age:</ion-label>
+          <ion-input type="number" max="100" min="1" placeholder="20" [(ngModel)]="input1"></ion-input>
+        </ion-item>
       </ion-row>
       <ion-row>
-        <ion-col col-6>
-          Gender:
-        </ion-col>
-        <ion-col col-6>
-          <ion-item>
-            <ion-input placeholder="Male"></ion-input>
-          </ion-item>
-        </ion-col>
+        <ion-item>
+          <ion-label>
+            Gender:
+          </ion-label>
+          <ion-input placeholder="Male" [(ngModel)]="input2"></ion-input>
+        </ion-item>
       </ion-row>
       <ion-row>
-        <ion-col col-6>
-          Budget
-        </ion-col>
-        <ion-col col-6>
-          <ion-item>
-            <ion-input type="number" min="1" placeholder="$100"></ion-input>
-          </ion-item>
-        </ion-col>
+        <ion-item>
+          <ion-label>
+            Budget
+          </ion-label>
+          <ion-input type="number" min="1" placeholder="$100" [(ngModel)]="input3"></ion-input>
+        </ion-item>
       </ion-row>
     </ion-card-content>
     <ion-row class="start-button">
-      <button ion-button full (tap)="gotoTinderPage()"> Start Your Journey!</button>
+      <button ion-button full (tap)="gotoTinderPage()" class="start-journey-button"
+              [disabled]="!input1 || !input2 || !input3">Start Your Journey!</button>
     </ion-row>
   </ion-card>
 </ion-content>

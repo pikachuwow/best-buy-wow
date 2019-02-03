@@ -10,6 +10,10 @@ import {TinderPage} from '../tinder/tinder';
 })
 export class HomePage {
 
+  public input1: string;
+  public input2: string;
+  public input3: string;
+
   constructor(public navCtrl: NavController) {
 
   }

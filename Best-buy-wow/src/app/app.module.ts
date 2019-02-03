@@ -16,6 +16,7 @@ import {ComparisonPage} from '../pages/comparison/comparison';
 import {CheckForMePage} from '../pages/check-for-me/check-for-me';
 import {TinderPage} from '../pages/tinder/tinder';
 import {RecommendationsPage} from '../pages/recommendations/recommendations';
+import { LazyProvider } from '../providers/lazy/lazy';
 
 @NgModule({
   declarations: [
@@ -47,12 +48,14 @@ import {RecommendationsPage} from '../pages/recommendations/recommendations';
     RecommendationsPage
   ],
   providers: [
+    LazyProvider,
     BarcodeScanner,
     HttpClient,
     InAppBrowser,
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    LazyProvider
   ]
 })
 export class AppModule {}

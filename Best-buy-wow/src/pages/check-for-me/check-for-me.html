@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Amy, customize your suggestion:</ion-title>
+    <ion-title> Customize your suggestion for these laptops:</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -14,32 +14,44 @@
   </ion-row>
 
   <ion-row>
-    <ion-select> Which operating system do you prefer? </ion-select>
-    <ion-option>Linux</ion-option>
-    <ion-option>Windows</ion-option>
-    <ion-option>MacOS</ion-option>
+    <ion-item>
+      <ion-label>Which operating system do you prefer?</ion-label>
+      <ion-select>
+        <ion-option>Linux</ion-option>
+        <ion-option>Windows</ion-option>
+        <ion-option>MacOS</ion-option>
+      </ion-select>
+    </ion-item>
   </ion-row>
 
   <ion-row>
-    <ion-select> A lot of people have to have one or the other. What is your preference? </ion-select>
-    <ion-option>Listen to Music</ion-option>
-    <ion-option>Editing Pictures</ion-option>
-    <ion-option>Intensive Applications</ion-option>
-    <ion-option>Storing Pictures/Music</ion-option>
-    <ion-option>Gaming</ion-option>
-    <ion-option>Schoolwork</ion-option>
-    <ion-option>Browsing</ion-option>
+    <ion-item>
+      <ion-label>A lot of people have to have one or the other. What is your preference?</ion-label>
+      <ion-select>
+        <ion-option>Listen to Music</ion-option>
+        <ion-option>Editing Pictures</ion-option>
+        <ion-option>Intensive Applications</ion-option>
+        <ion-option>Storing Pictures/Music</ion-option>
+        <ion-option>Gaming</ion-option>
+        <ion-option>Schoolwork</ion-option>
+        <ion-option>Browsing</ion-option>
+      </ion-select>
+    </ion-item>
   </ion-row>
 
   <ion-row>
-    <ion-select> What about portability? </ion-select>
-    <ion-option>Very Small</ion-option>
-    <ion-option>Fairly Portable</ion-option>
-    <ion-option>Not Important</ion-option>
+    <ion-item>
+      <ion-label>What about portability?</ion-label>
+      <ion-select>
+        <ion-option>Very Small</ion-option>
+        <ion-option>Fairly Portable</ion-option>
+        <ion-option>Not Important</ion-option>
+      </ion-select>
+    </ion-item>
   </ion-row>
 
   <ion-row>
-    <button ion-button full (tap)="gotoRecommendationsPage()">
+    <button ion-button full (tap)="gotoRecommendationsPage()" class="check-for-me">
       Pick For Me!
     </button>
   </ion-row>

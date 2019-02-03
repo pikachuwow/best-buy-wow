@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {CheckForMePage} from '../check-for-me/check-for-me';
+import {LazyProvider} from '../../providers/lazy/lazy';
 
 @IonicPage()
 @Component({
@@ -30,7 +31,7 @@ export class ComparisonPage {
     speed2: '',
   };
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private lazyProvider: LazyProvider) {
     this.image1=this.navParams.get('image1');
     this.image2=this.navParams.get('image2');
     this.json1Info.name1 = this.navParams.get('name1');
@@ -45,6 +46,8 @@ export class ComparisonPage {
     this.json2Info.processor2 = this.navParams.get('processor2');
     this.json2Info.ram2 = this.navParams.get('ram2');
     this.json2Info.speed2 = this.navParams.get('speed2');
+    this.lazyProvider.image2 = this.image2;
+    this.lazyProvider.json2Info = this.json2Info;
   }
 
 

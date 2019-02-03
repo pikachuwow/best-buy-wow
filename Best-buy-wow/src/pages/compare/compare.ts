@@ -29,7 +29,7 @@ export class ComparePage {
           // await this.compareRatings();
         }
       });
-    }, 1000);
+    }, 700);
   }
 
   private async compare(): Promise<void> {
